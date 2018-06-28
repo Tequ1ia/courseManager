@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QueryStu</class>
+ <widget class="QDialog" name="QueryStu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>470</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>查询学生</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,6,2">
+     <item>
+      <widget class="QComboBox" name="cbb_method">
+       <item>
+        <property name="text">
+         <string>请选择查询方式</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按姓名查询</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按学号查询</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按密码查询</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按性别查询</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按学院查询</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按班级查询</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_content"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_search">
+       <property name="text">
+        <string>搜索</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

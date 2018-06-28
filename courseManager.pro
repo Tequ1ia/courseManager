@@ -1,0 +1,57 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2018-06-22T21:49:49
+#
+#-------------------------------------------------
+
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = courseManager
+TEMPLATE = app
+
+# The following define makes your compiler emit warnings if you use
+# any feature of Qt which has been marked as deprecated (the exact warnings
+# depend on your compiler). Please consult the documentation of the
+# deprecated API in order to know how to port your code away from it.
+DEFINES += QT_DEPRECATED_WARNINGS
+
+# You can also make your code fail to compile if you use deprecated APIs.
+# In order to do so, uncomment the following line.
+# You can also select to disable deprecated APIs only up to a certain version of Qt.
+#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
+
+
+SOURCES += \
+        main.cpp \
+        addstu.cpp \
+    mainwindow.cpp \
+    querystu.cpp \
+    addteacher.cpp \
+    administerlogin.cpp \
+    addcourse.cpp \
+    selectcourse.cpp \
+    teacherlogin.cpp \
+    source.cpp
+
+HEADERS += \
+        addstu.h \
+    mainwindow.h \
+    querystu.h \
+    addteacher.h \
+    administerlogin.h \
+    addcourse.h \
+    selectcourse.h \
+    teacherlogin.h \
+    base.h
+
+FORMS += \
+        addstu.ui \
+    mainwindow.ui \
+    querystu.ui \
+    addteacher.ui \
+    administerlogin.ui \
+    addcourse.ui \
+    selectcourse.ui \
+    teacherlogin.ui
