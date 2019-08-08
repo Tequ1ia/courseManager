@@ -1,4 +1,5 @@
-# courese_manager
+
+## courese_manager, 写的很烂, deprecated
 学生选课系统
 
 新建一个工程文件夹demo
